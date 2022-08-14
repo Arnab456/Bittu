@@ -1,0 +1,6 @@
+---
+- hosts: all
+    - name: copy content
+      copy:
+       dest: /home/resolve.conf
+       content: "nameserver"
